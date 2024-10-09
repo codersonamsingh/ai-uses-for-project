@@ -8,7 +8,7 @@ export default function Home() {
       <h2>
         Hello World
       </h2>
-      <Button>Click</Button>
+      <Button variant="destructive">Click</Button>
     </div>
   );
 }
