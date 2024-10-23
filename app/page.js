@@ -1,14 +1,12 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+ // No need for .jsx in import
+
+import { Button } from "../@/components/ui/button";
 
 export default function Home() {
   return (
-   
     <div>
-      <h2>
-        Hello World
-      </h2>
-      <Button variant="destructive">Click</Button>
+      <h2>Hello World</h2>
+     <Button>Click</Button>
     </div>
   );
 }
