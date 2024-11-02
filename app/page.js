@@ -8,7 +8,6 @@ export default function Home() {
     <div>
       <h2>Hello World</h2>
      <Button>Sonam</Button>
-
      <UserButton/>
     </div>
   );
