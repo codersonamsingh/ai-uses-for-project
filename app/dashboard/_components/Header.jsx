@@ -1,4 +1,5 @@
-import { UserButton } from '@clerk/nextjs';
+
+import { UserButton } from "@clerk/nextjs";
 import Button from '@mui/material/Button'; // Correctly importing Material-UI Button
 import Image from 'next/image';
 import React from 'react';
@@ -12,7 +13,7 @@ function Header() {
             </div>
             <div className='flex gap-3 items-center'>
                 <Button variant="contained">Dashboard</Button>
-                <UserButton />
+                <UserButton/>
             </div>
         </div>
     );
